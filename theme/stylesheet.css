@@ -4,10 +4,10 @@
 	Based on style:	subSilver (the default phpBB 2 style)
 	Original author:	subBlue ( http://www.subBlue.com/ )
 	Modified by:	gokin  [ gok4in@gmail.com ] (  http://www.gokin.pl/ )
-	
+
 	This is an alternative style for phpBB3 for those wishing to stay with
 	the familiar subSilver style of phpBB version 2.x
-	
+
 	Copyright 2006 phpBB Group ( http://www.phpbb.com/ )
     --------------------------------------------------------------
 */
@@ -26,7 +26,7 @@ html {
 
 body {
 	/*background: #FFF;*/
-	background: url('http://www.tc-alsace.eu/forums/divers/body-bg16.png');
+	background: url('../../../divers/body-bg16.png');
 	color: #666666;
 	font-family: Verdana, Tahoma, Arial, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
 	font-size: 10px;
@@ -191,7 +191,7 @@ p.datetime {
 p.searchbar {
 	padding: 2px 0;
 	white-space: nowrap;
-} 
+}
 
 p.searchbarreg {
 	margin: 0;
@@ -295,9 +295,9 @@ p.topicdetails {
 	font-size: 1em;
 }
 
-.copyright{ 
+.copyright{
 	background: transparent !important;
-	font-size: 10px; 
+	font-size: 10px;
 	margin: 0 0 5px 0;
 	padding: 10px;
 	padding-bottom: 0px;
@@ -320,10 +320,10 @@ p.topicdetails {
  ------------ */
 
 th {
-	height: 23px; 
+	height: 23px;
 	color: #363433;
 	font-size: 10px;
-	font-weight : bold; 
+	font-weight : bold;
 	background-color: #FFFFFF;
 	background-image: url('./images/subtitle.gif');
 	white-space: nowrap;
@@ -340,7 +340,7 @@ td.profile {
 
 .tablebg {
 	/*background-color: #E3E3E3;*/
-	background: url('http://www.tc-alsace.eu/wp-content/themes/Aggregate/images/body-bg5.png');
+	background: url('https://www.tc-alsace.eu/wp-content/themes/Aggregate/images/body-bg5.png');
 }
 
 .catdiv {
@@ -480,7 +480,7 @@ textarea {
 	background-color: #FAFAFA;
 	color: #333333;
 	font-family: Verdana, Tahoma, Arial, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
-	font-size: 1.3em; 
+	font-size: 1.3em;
 	line-height: 1.4em;
 	font-weight: normal;
 	border: 1px solid #A9B8C2;
@@ -691,7 +691,7 @@ pre {
 	text-align: center;
 }
 
-#logo {	
+#logo {
 	/*position: absolute;
 	left: 0;
 	top: 70px;*/
@@ -722,8 +722,8 @@ pre {
 
 div.item {padding-top:0.6em;}
 
-#top_menu a, 
-#top_menu a:link, 
+#top_menu a,
+#top_menu a:link,
 #top_menu a:visited {
 	color:#666;
 	padding-left: 5px;
@@ -733,14 +733,14 @@ div.item {padding-top:0.6em;}
 	text-transform: lowercase;
 }
 
-#top_menu a:hover, 
+#top_menu a:hover,
 #top_menu a.active {
 	text-decoration: underline;
 }
 
-#top_menu ul, 
-#top_menu li, 
-#menu ul, 
+#top_menu ul,
+#top_menu li,
+#menu ul,
 #menu li {
 	list-style-type:none;
 	list-style-image:none;
@@ -758,7 +758,7 @@ div.item {padding-top:0.6em;}
 
 #menu ul {
 	height: 23px;
-} 
+}
 
 
 
@@ -769,8 +769,8 @@ div.item {padding-top:0.6em;}
 	background: url('./images/menu_bg.gif') right top no-repeat;
 }
 
-#menu ul li a, 
-#menu ul li a:link, 
+#menu ul li a,
+#menu ul li a:link,
 #menu ul li a:visited {
 	color: #3E3D40;
 	font-size: 10px;
@@ -780,12 +780,12 @@ div.item {padding-top:0.6em;}
 	text-transform: uppercase;
 }
 
-#menu ul li:hover, 
+#menu ul li:hover,
 #menu ul li.over {
 	background:black url('./images/menu_bg.gif') right top no-repeat;
 }
 
-#menu ul li:hover a, 
+#menu ul li:hover a,
 #menu ul li.over a {
 	color: #A8C82B;
 }
@@ -802,8 +802,8 @@ div.item {padding-top:0.6em;}
 .borderwrapm{ /* this will affect the outlining border of all the tables and boxes through-out the skin. */
 	background: #e3e3e3;
 	border: 0px solid #072A66;
-	padding: 0px; 
-	margin: 0px; 
+	padding: 0px;
+	margin: 0px;
 }
 
 .borderwrapm{
@@ -817,16 +817,16 @@ div.item {padding-top:0.6em;}
 	background: #FFF;
 	border: 0px solid #FFF;
 	border-bottom: 0px solid #5176B5;
-	color: #434343; 
+	color: #434343;
 	font-size: 12px;
-	font-weight: bold; 
+	font-weight: bold;
 	margin: 0px;
 	padding: 8px;
 	padding-left: 0px;
 }
 
 .maintitle td {
-	: #000; 
+	: #000;
 	font-size: 12px;
 	font-weight: bold;
 }
@@ -853,24 +853,24 @@ div.item {padding-top:0.6em;}
 	width: auto !important;
 }
 
-.maintitle a:link, 
+.maintitle a:link,
 .maintitle a:visited,
-.maintitlecollapse a:link, 
-.maintitlecollapse a:visited{ 
+.maintitlecollapse a:link,
+.maintitlecollapse a:visited{
 	background: transparent;
 	color: #434343;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
-.maintitle a:hover, 
+.maintitle a:hover,
 .maintitle a:active,
-.maintitlecollapse a:hover, 
-.maintitlecollapse a:active{ 
+.maintitlecollapse a:hover,
+.maintitlecollapse a:active{
 	background: transparent;
 	color: #BDDA1E;
 }
 
-#ipbwrapper{ 
+#ipbwrapper{
 	margin: 0px auto 0px auto; /* centers the box, no matter the overall width, also applies a 20px gap at the top and bottom of the board */
 	text-align: left; /* re_aligns text to left second part of two part MSIE centering workaround */
 	/* EDIT THIS TO CHANGE THE WIDTH OF THE BOARD -> 960px is a common fixed resolution size */
@@ -885,7 +885,7 @@ div.item {padding-top:0.6em;}
 	padding: 0 5px 0 5px;
 }
 
-#userlinksguest{ 
+#userlinksguest{
 	background: transparent !important;
 	border: 0px solid #986265;
 }
@@ -895,10 +895,10 @@ div.item {padding-top:0.6em;}
 	background: transparent !important;
 	border: 0 !important;
 	font-size: 10px;
-	font-weight: bold; 
+	font-weight: bold;
 	letter-spacing: 1px;
 	margin: 0 !important;
-	padding: 7px 0 7px 0; 
+	padding: 7px 0 7px 0;
 	text-align: right;
 }
 
@@ -917,13 +917,13 @@ div.item {padding-top:0.6em;}
 	float: left;
 }
 
-#navstrip{ 
+#navstrip{
 	background: transparent !import;
 	color: #000;
 	font-size: 12px;
 	font-weight: bold;
 	margin: 0 0 5px 0;
-	padding: 14px 0px 8px 0px; 
+	padding: 14px 0px 8px 0px;
 }
 
 .newslink{
@@ -977,9 +977,9 @@ div.item {padding-top:0.6em;}
 	border: 1px solid #CCC;
 	border-left: 0;
 	border-right: 0;
-	color: #444; 
+	color: #444;
 	font-size: 12px;
-	font-weight: bold; 
+	font-weight: bold;
 	margin: 0;
 	padding: 5px;
 }
@@ -1502,4 +1502,3 @@ span.imageset {
 	padding-right: 19px;
 	padding-left: 0;
 }
-
